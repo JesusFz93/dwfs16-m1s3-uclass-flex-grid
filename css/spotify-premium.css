@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px;
+}
+
+.planes {
+    background-color: aqua;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.plan {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.plan_encabezado {
+    background-color: white;
+    height: 170px;
+}
+
+.plan .mes_gratis_button {
+    background-color: rgb(8, 8, 221);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.plan .mes_pud_button {
+    color: rgb(8, 8, 221);
+    border: 1px solid rgb(8, 8, 221);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.plan .title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.plan .price {
+    font-size: 20px;
+}
+
+.plan .ctas {
+    font-size: 20px;
+}
+
+.plan .division {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.plan .beneficios {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    list-style: none;
+    height: 400px;
+}
+
+.plan .beneficios li {
+    margin-bottom: 10px;
+}
+
+.plan .beneficios li::before {
+    content: "✔";
+    margin-right: 10px;
+}
+
+.btn_comenzar {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    display: block;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.btn_content {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.terminos {
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
