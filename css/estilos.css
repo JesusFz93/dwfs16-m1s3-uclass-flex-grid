@@ -1,0 +1,49 @@
+body {
+    background-color: lightgray;
+}
+
+.contenedor1 {
+    background-color: pink;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row; /* row, row-reverse, column, column-reverse */
+    flex-wrap: wrap; /* nowrap, wrap, wrap-reverse */
+    /* flex-flow: row wrap; combinacion entre flex-direction y flex-wrap */ 
+    /* height: 90vh; Significa que siempre medira el 90% de la pantalla */
+    justify-content: center; /*flex-start center flex-end space-between space-around space-evenly */
+    align-items: center; /* flex-start center flex-end stretch */
+}
+
+.caja {
+    color: white;
+    font-size: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.caja1 {
+    background-color: blue;
+    order: 1;
+}
+
+.caja2 {
+    background-color: green;
+    order: 5;
+}
+
+.caja3 {
+    background-color: yellow;
+    color: black;
+    order: 4;
+}
+
+.caja4 {
+    background-color: red;
+    order: -4;
+}
+
+.caja5 {
+    background-color: black;
+    order: 0;
+}
